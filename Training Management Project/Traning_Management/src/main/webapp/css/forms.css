@@ -1,0 +1,121 @@
+﻿form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+
+input[type=text], input[type=password], input[type=file], select, textarea
+{
+	background-color:#fff;
+	color:#2c2d36;
+	border:1px #777 solid;
+	padding:3px 2px;
+	width:100%;
+}
+textarea{
+	resize:none;
+}
+
+input.txtDatePicker{
+	background-image:url('../images/calendar.png');
+	background-repeat:no-repeat;
+	background-position:right 5px;
+}
+
+
+input[type=button], input[type=submit], .btn-main
+{
+	cursor:pointer;
+	border:0;
+	font-size:14px;
+	color:#fff;
+	background-color:#4543aa;
+	text-align:center;
+	padding:5px 10px;
+	margin:0px 5px 0 5px;
+    text-decoration:none;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    border:1px solid #4543aa;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow:0px 0px 5px #777;
+	-moz-box-shadow:0px 0px 5px #777;
+	box-shadow:0px 0px 5px #777;
+}
+
+input[type=button]:hover, input[type=submit]:hover, .btn-main:hover
+{
+	color:#4543aa;
+	background-color:#fff;
+}
+
+input[type=reset], input.reset, .btn-reset
+{
+	cursor:pointer;
+	border:0;
+	font-size:14px;
+	color:#fff;
+	background-color:#aa4344;
+	text-align:center;
+	padding:5px 10px;
+	margin:3px 5px 2px 0;
+    text-decoration:none;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    border:1px solid #aa4344;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow:0px 0px 5px #777;
+	-moz-box-shadow:0px 0px 5px #777;
+	box-shadow:0px 0px 5px #777;
+}
+input[type=reset]:hover, input.reset:hover, .btn-reset:hover
+{
+	color:#aa4344;
+	background-color:#fff;
+}
+
+input[type=radio], input[type=checkbox]
+{
+	vertical-align:middle;
+	margin-top:-1px;
+	margin-right:4px;
+}
+label
+{
+  font-weight:normal;
+  margin-top:5px;
+}
+
+.shadow_red{
+	box-shadow:0 0 4px #ac193d;
+	-moz-box-shadow:0 0 4px #ac193d;
+	-webkit-box-shadow:0 0 4px #ac193d;
+	-o-box-shadow:0 0 4px #ac193d;
+	border:1px #ac193d solid!important;
+}
+.shadow_none{
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	border:1px #777 solid;
+}
+
+.form-table
+{
+	width:100%;
+	border:0;
+}
+.form-table td,
+.form-table th
+{
+	padding-bottom:7px;
+}
+.form-table th
+{
+	font-weight:normal;
+	width:200px;
+	text-align:right;
+	padding-right:7px;
+}

@@ -1,0 +1,60 @@
+	<!-- CONTENTS START -->
+	<div class="container_24">
+		<div class="grid_24">
+			<div class="contents">
+			
+			<div class="grid_18 omega">
+						 &nbsp;&nbsp;<h2>Admin Login</h2>
+							<div class="padding_20 text-justify">
+								<form id="frmMain" class="frmMain" action="AdminValidationServlet" method="post">
+									<table class="form-table" style="width:auto">
+										<tr>
+											<th>
+												Email Id
+											</th>
+											<td>
+												<input id="email" type="text"  class="validate[required]" name="email" style="width:120%" placeholder="demo@cybage.com" value=""  />
+											</td>
+											<td>
+													<ul class="news-ticker1"><span class="icon">&#9734;</span> Must be Registered</ul>
+											</td>
+						
+										</tr>
+										
+										<tr>
+											<th>
+												Password
+											</th>
+											<td>
+												<input id="password" type="password"  class="validate[required]" name="password" style="width:120%" placeholder="password" value=""  />
+											</td>
+										
+										</tr>
+										<tr>
+											<th>
+												&nbsp;
+											</th>
+											<td>
+												<input id="Submit1" type="submit" value="Sumbit"  />
+												<input id="Reset1" type="reset" value="Reset" onclick="this.form.clear();" />
+											</td>
+										</tr>
+								
+									</table>
+								</form>
+							</div>
+						</div>
+					
+					<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+				
+				<div class="clear"></div>
+				<div class="padding_20 text-justify">
+				
+				</div>
+			
+		</div>
+	</div>
+	<!-- CONTENTS END -->
